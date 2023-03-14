@@ -10,6 +10,8 @@ fetch('http://localhost:3000/users')
 });
 
 function printUsers(users) {
+    console.log(users);
+
     userList.innerHTML = '';
 
     users.map(user => {
